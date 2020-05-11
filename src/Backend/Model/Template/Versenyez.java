@@ -23,7 +23,7 @@ public abstract class Versenyez {
     }
 
     private String Start() {
-        return versenyzo.getNev() + " a " + versenyzo.getKerekpar() + "gyártó csapatához tartozik. Ö egy " + versenyzo.getKptipus() + " versenyző. Szeret sokat biciklizni és igen gyorsan tud vele menni ezért indul versenyeken.\n";
+        return versenyzo.getNev() + " a " + versenyzo.getKerekpar() + " gyártó csapatához tartozik. Ö egy " + versenyzo.getKptipus() + " versenyző.\n Szeret sokat biciklizni és igen gyorsan tud vele menni ezért indul versenyeken.\n\n";
     }
 
     private String Elindul() {
